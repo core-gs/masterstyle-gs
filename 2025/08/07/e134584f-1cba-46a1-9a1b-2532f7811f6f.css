@@ -5,12 +5,12 @@
   --brand-primary-color: #2b2d42;
   --brand-secondary-color: #e8e8e8;
   --brand-acent-color: #42476b;
-  --ghl-topbar-color: #2b2d42;
-  --ghl-sidebar-color: #2b2d42;
-  --menu-hover-color: #3a3e5a;
-  --menu-active-color: #ffb547;
+  --ghl-topbar-color: linear-gradient(200deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+  --ghl-sidebar-color: linear-gradient(20deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+  --menu-hover-color: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+  --menu-active-color: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
   --sidebar-bottom-toggle: #565c8f;
-  --ghl-widgets-color: #3a3e5a;
+  --ghl-widgets-color: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
   --ghl-widgets-bg-color: #ffffff;
   --ghl-topbar-text-color: #ffffff;
   --menu-text-color: #ffffff;
