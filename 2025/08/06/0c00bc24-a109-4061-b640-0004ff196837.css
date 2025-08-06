@@ -2,7 +2,7 @@
 
 :root {
   --brand-logo: url(https://res.cloudinary.com/dn3mdxebf/image/upload/v1745646079/AutoGenCRM_k4fbya.png);
-  --brand-primary-color: #2b2d42;
+  --brand-primary-color: #6d6d6d;
   --brand-secondary-color: #e8e8e8;
   --brand-acent-color: #1d38ff;
   --ghl-topbar-color: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
