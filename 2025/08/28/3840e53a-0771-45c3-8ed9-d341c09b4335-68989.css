@@ -1,0 +1,64 @@
+/* -- Start GHL Style CSS -- */
+
+:root {
+  --brand-logo: url(https://storage.googleapis.com/msgsndr/UcdXDxIMcq9Cn2CkdDKk/media/688288850df8ef1d449cbdd8.svg);
+  --brand-primary-color: #1a2436;
+  --brand-secondary-color: #ffffff;
+  --brand-acent-color: #0188ed;
+  --ghl-topbar-color: #1a2436;
+  --ghl-sidebar-color: #1a2436;
+  --menu-hover-color: #0188ed;
+  --menu-active-color: #0188ed;
+  --sidebar-bottom-toggle: #0188ed;
+  --ghl-widgets-color: #1a2436;
+  --ghl-widgets-bg-color: #fffefe;
+  --ghl-topbar-text-color: #ffffff;
+  --menu-text-color: #ffffff;
+  --ghl-dashboard-icon-color: #83878f;
+  --ghl-widgets-text-color: #ffffff;
+  --ghl-widgets-icon-color: #ffffff;
+  --ghl-topbar-icon-color: #ffffff;
+  --Launch-Pad-Text: "Launch Pad";
+  --Dashboard-Text: "Dashboard";
+  --Conversations-Text: "Conversations";
+  --Calendar-Text: "Calendar";
+  --Contacts-Text: "Contacts";
+  --Opportunities-Text: "Support Tickets";
+  --Payments-Text: "Payments";
+  --AI-Agents-Text: "AI Agents";
+  --Marketing-Text: "Marketing";
+  --Automations-Text: "Automations";
+  --Sites-Text: "Sites";
+  --Memberships-Text: "Memberships";
+  --Media-Storage-Text: "Media Storage";
+  --Reputation-Text: "Reputation";
+  --Reporting-Text: "Reporting";
+  --App-Marketplace-Text: "App Marketplace";
+  --Mobile-App-Text: "Mobile App";
+  --Settings-Text: "Settings";
+  --launch-pad-icon: url(https://res.cloudinary.com/dn3mdxebf/image/upload/v1756120803/RocketLaunch_foomvx.svg);
+  --dashboard-icon: url(https://res.cloudinary.com/dn3mdxebf/image/upload/v1756120800/ChartDonut_uv24q5.svg);
+  --conversations-icon: url(https://res.cloudinary.com/dn3mdxebf/image/upload/v1756120801/Chats_gy4t3v.svg);
+  --calendars-icon: url(https://res.cloudinary.com/dn3mdxebf/image/upload/v1756120799/CalendarDots_po1cro.svg);
+  --contacts-icon: url(https://res.cloudinary.com/dn3mdxebf/image/upload/v1756120801/IdentificationCard_rn0h6f.svg);
+  --opportunities-icon: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCI+Cgk8cGF0aCBmaWxsPSIjZmZmIiBkPSJNMTAgMTQuNWEyIDIgMCAwIDEtMS45OTQtMS44NEE2LjAwMiA2LjAwMiAwIDAgMSAxMCAxYTYgNiAwIDAgMSA1Ljk4IDUuNWEuNDcuNDcgMCAwIDEtLjQ4LjVhLjU0LjU0IDAgMCAxLS41MjUtLjVhNSA1IDAgMSAwLTYuNzkgNS4xNkEyIDIgMCAxIDEgMTAgMTQuNU01LjAwOSAxMkg1LjFhNyA3IDAgMCAwIDIuMDMzIDEuMzg4QTMgMyAwIDAgMCAxMi45NTkgMTJIMTVhMiAyIDAgMCAxIDIgMmMwIDEuNjkxLS44MzMgMi45NjYtMi4xMzUgMy43OTdDMTMuNTgzIDE4LjYxNCAxMS44NTUgMTkgMTAgMTlzLTMuNTgzLS4zODYtNC44NjUtMS4yMDNDMy44MzMgMTYuOTY3IDMgMTUuNjkgMyAxNGMwLTEuMTEzLjkwMy0yIDIuMDA5LTJNMTQgN2E0IDQgMCAwIDEtMS44NyAzLjM4N0EzIDMgMCAwIDAgMTAgOS41YTMgMyAwIDAgMC0yLjEzLjg4N2E0IDQgMCAwIDEtMS42MzgtMi4wNDJBNCA0IDAgMCAxIDYgN2E0IDQgMCAxIDEgOCAwIiAvPgo8L3N2Zz4=);
+  --payments-icon: url(https://res.cloudinary.com/dn3mdxebf/image/upload/v1756120801/Chats_gy4t3v.svg);
+  --ai-agents-icon: url(https://res.cloudinary.com/dn3mdxebf/image/upload/v1756120797/AIAgents_bkcjdh.svg);
+  --marketing-icon: url(https://res.cloudinary.com/dn3mdxebf/image/upload/v1756120803/Megaphone_ev02mj.svg);
+  --automations-icon: url(https://res.cloudinary.com/dn3mdxebf/image/upload/v1756120798/GearFine_tmenvl.svg);
+  --sites-icon: url(https://res.cloudinary.com/dn3mdxebf/image/upload/v1756120798/Browser_rssmn4.svg);
+  --memberships-icon: url(https://res.cloudinary.com/dn3mdxebf/image/upload/v1756120799/Certificate_oupmjc.svg);
+  --media-storage-icon: url(https://res.cloudinary.com/dn3mdxebf/image/upload/v1756120801/ImagesSquare_pt9nsc.svg);
+  --reputation-icon: url(https://res.cloudinary.com/dn3mdxebf/image/upload/v1756120801/ListStar_hp6kwz.svg);
+  --reporting-icon: url(https://res.cloudinary.com/dn3mdxebf/image/upload/v1756120800/ChartBar_glswb6.svg);
+  --app-marketplace-icon: url(https://res.cloudinary.com/dn3mdxebf/image/upload/v1756120803/SquaresFour_cs74e8.svg);
+  --mobile-app-icon: url(https://res.cloudinary.com/dn3mdxebf/image/upload/v1756120797/DeviceMobileCamera_ee6bjc.svg);
+  --settings-icon: url(https://res.cloudinary.com/dn3mdxebf/image/upload/v1756120804/ToggleRight_ilkgn7.svg);
+  --icon-dialer: url(https://res.cloudinary.com/dn3mdxebf/image/upload/v1756120803/Phone_njlig6.svg);
+  --icon-askai: url(https://res.cloudinary.com/dn3mdxebf/image/upload/v1756120797/AIAsk_r48peo.svg);
+  --icon-activitie: url(https://res.cloudinary.com/dn3mdxebf/image/upload/v1756120798/Bell_xwzveh.svg);
+  --icon-help: url(https://res.cloudinary.com/dn3mdxebf/image/upload/v1756120803/Question_qbzmwm.svg);
+  --icon-canny-logs: url(https://res.cloudinary.com/dn3mdxebf/image/upload/v1756120802/Megaphone-1_qocvdf.svg);
+}
+
+/* -- End GHL Style CSS -- */
